@@ -10,7 +10,7 @@ int main(){
     //     cout<<i<<" ";
     // }
 
-    int a = 612;
+    int a = 2;
     int b = 10;
 
     cout<<a/b;
