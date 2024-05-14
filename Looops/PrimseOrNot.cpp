@@ -5,15 +5,19 @@ int main()
 {
     int n;
     cin >> n;
-
+    int factorCount = 0;
     for (int i = 2; i < n; i++)
     {
         if (n % i == 0)
         {
-            cout << "not Prime";
+            factorCount++;
         }
     }
+    if(factorCount!=0){
+        cout<<"Not Prime";
+    }else{
+        cout<<"Prime";
+    }
 
-    cout << "prime";
     return 0;
 }
