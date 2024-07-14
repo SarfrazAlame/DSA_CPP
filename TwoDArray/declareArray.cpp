@@ -16,12 +16,13 @@ int main()
         {8, 5, 9, 0, 5},
     };
 
-    for (int i = 0; i < 5; i++)
+    for (int j = 0; j < 4; j++)
     {
-        for (int j = 0; j < 4; j++)
+        for (int i = 0; i < 5; i++)
         {
             cout << arr[j][i] << " ";
         }
+        cout << endl;
     }
 
     return 0;
