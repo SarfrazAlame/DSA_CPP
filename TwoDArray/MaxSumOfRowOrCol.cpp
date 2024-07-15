@@ -22,14 +22,14 @@ int main()
         }
     }
 
-    for (int k = 0; k < 5; k++)
-    {
-        cout << col[k] << " ";
-    }
-    cout << endl;
-    for (int y = 0; y < 4; y++)
-    {
-        cout << row[y] << " ";
-    }
+    // for (int k = 0; k < 5; k++)
+    // {
+    //     cout << col[k] << " ";
+    // }
+    // cout << endl;
+    // for (int y = 0; y < 4; y++)
+    // {
+    //     cout << row[y] << " ";
+    // }
     return 0;
 }
