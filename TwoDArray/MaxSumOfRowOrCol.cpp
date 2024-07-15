@@ -26,7 +26,7 @@ int main()
     {
         cout << col[k] << " ";
     }
-    cout<<endl;
+    cout << endl;
     for (int y = 0; y < 4; y++)
     {
         cout << row[y] << " ";
